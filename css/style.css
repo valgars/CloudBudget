@@ -48,33 +48,16 @@ p,h1,h2,span,body {
 .header.fixed {
     height: auto;
     position: fixed;
-    /*background-color: #31344e;*/
+    background: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%);
 }
 .header.fixed .header__inner {
-    /*padding-top: 15px;*/
-    /*padding-bottom: 15px;*/
-    border-bottom: 0px;
+    padding-top: 0px;
 }
-.content {
-
-}
-/* The sticky class is added to the header with JS when it reaches its scroll position */
 .fixed {
     position: fixed;
     top: 0;
     width: 100%
 }
-
-/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
-.fixed + .content {
-    padding-top: 102px;
-}
-
-
-
-
-
-
 .header__inner {
     display: flex;
     justify-content: space-between;
