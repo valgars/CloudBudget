@@ -333,6 +333,7 @@ p,h1,h2,span,body {
 .download__inner {
     display: flex;
     justify-content: space-around;
+
 }
 .download_item {
     min-width: 0;
